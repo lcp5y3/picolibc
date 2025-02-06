@@ -1,0 +1,14 @@
+.{
+    .name = "picolibc",
+    .version = "1.8.9",
+    .dependencies = .{
+        .picolibc = .{
+            .url = "https://github.com/picolibc/picolibc/archive/refs/tags/1.8.9.tar.gz",
+            .hash = "12203f4672136b960b4140893562c41f731c147105b63674624f468085cc6e65d1e4",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
